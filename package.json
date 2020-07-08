@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-moebel-react",
+  "version": "0.1.0",
+  "description": "Eslint config for react projects",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "team.consumer@moebel.de",
+  "license": "MIT",
+  "peerDependencies": {
+    "@types/eslint": "^4.16.8",
+    "@types/eslint-plugin-prettier": "^2.2.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1"
+  },
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  }
+}
