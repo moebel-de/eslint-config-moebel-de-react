@@ -12,8 +12,9 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
+    'plugin:sonarjs/recommended'
   ],
-  plugins: ["react", "react-hooks", "@typescript-eslint", "prettier", "import"],
+  plugins: ["react", "react-hooks", "@typescript-eslint", "prettier", "import", "sonarjs"],
   env: {
     browser: true,
     jasmine: true,
@@ -35,6 +36,8 @@ module.exports = {
     "@typescript-eslint/no-empty-function": "off",
     "no-case-declarations": "off",
     "import/first": "error",
+    "curly": ['error'],
+    'sonarjs/no-identical-expressions': ['error', 3],
     "import/order": [
       "warn",
       {
